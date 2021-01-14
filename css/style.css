@@ -20,6 +20,10 @@ p {
     width: 40%;
 }
 
+figcaption {
+    width: 40%;
+}
+
 a {
     font-weight: bold;
     color: rgb(68, 0, 255);
