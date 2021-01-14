@@ -20,9 +20,6 @@ p {
     width: 40%;
 }
 
-figcaption {
-    width: 40%;
-}
 
 a {
     font-weight: bold;
@@ -31,4 +28,22 @@ a {
 
 a:hover {
     background-color: yellow;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    float: left;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 400px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
